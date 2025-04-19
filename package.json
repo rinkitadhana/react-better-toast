@@ -1,0 +1,43 @@
+{
+  "name": "react-better-toast",
+  "version": "0.0.1",
+  "description": "A better toast component for React.",
+  "keywords": [
+    "toast",
+    "notification",
+    "react"
+  ],
+  "homepage": "https://github.com/rinkitadhana/react-better-toast#readme",
+  "bugs": {
+    "url": "https://github.com/rinkitadhana/react-better-toast/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinkitadhana/react-better-toast.git"
+  },
+  "license": "MIT",
+  "author": "Rinkit Adhana",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsup src/index.ts --watch --onSuccess \"node dist/index.js\"",
+    "build": "tsup",
+    "lint": "eslint 'src/**/*.{ts,js}'",
+    "format": "prettier --write src"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.1",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.29.1"
+  },
+  "dependencies": {
+    "@types/react": "^19.1.0",
+    "react": "^19.1.0"
+  }
+}
